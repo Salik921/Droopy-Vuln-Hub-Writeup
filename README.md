@@ -183,8 +183,7 @@ chmod +x exploit
 * Root access successfully obtained
 
 📸 Screenshot:
-(Add root shell screenshot)
-
+https://github.com/Salik921/Droopy-Vuln-Hub-Writeup/blob/82a2c7a13e4526b9c88027647f797932154be1f5/Screenshot%202026-03-24%20205637.png
 ---
 
 ## 💥 Impact
