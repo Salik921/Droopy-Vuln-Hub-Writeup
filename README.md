@@ -162,6 +162,7 @@ searchsploit linux | grep -i 3.13 | grep -i kernal
 * Found exploit (37292.c)
 
 📸 Screenshot:
+https://github.com/Salik921/Droopy-Vuln-Hub-Writeup/blob/8a4d5ac4b7d9401e72bbfc57d4d25bb563478ade/Screenshot%202026-03-28%20132712.png
 
 
 ### Transfer Exploit
