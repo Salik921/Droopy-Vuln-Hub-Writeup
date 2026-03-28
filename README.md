@@ -57,7 +57,7 @@ nmap -sC -sV <TARGET_IP>
 ```
 
 📸 Screenshot:
-(Add nmap screenshot here)
+https://github.com/Salik921/Droopy-Vuln-Hub-Writeup/blob/5487ed0030f1d058baf47b3cd27aa3d136b0d5e2/Screenshot%202026-03-24%20203608.png
 
 ---
 
