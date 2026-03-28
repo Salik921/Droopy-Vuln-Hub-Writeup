@@ -72,7 +72,7 @@ nikto -h http://<TARGET_IP>
 ```
 
 📸 Screenshot:
-(Add Drupal detection screenshot)
+https://github.com/Salik921/Droopy-Vuln-Hub-Writeup/blob/51f97365df72d89fd14865bccbd0155db72d9b4f/Screenshot%202026-03-24%20203812.png
 
 ---
 
@@ -88,7 +88,7 @@ searchsploit drupal 7
 * Confirmed that the CMS version is outdated and vulnerable
 
 📸 Screenshot:
-(Add searchsploit output)
+https://github.com/Salik921/Droopy-Vuln-Hub-Writeup/blob/51f97365df72d89fd14865bccbd0155db72d9b4f/Screenshot%202026-03-24%20204215.png
 
 ---
 
@@ -97,15 +97,25 @@ searchsploit drupal 7
 * Used Drupal exploit (34992.py)
 
 ```bash
-python3 34992.py -t http://<TARGET_IP>/ -u admin2 -p admin2
+python3 34992.py -t http://<192.168.10.14>/ -u admin2 -p admin2
 ```
+📌 Drupalgeddon SQL Injection Exploit (34992.py)
+
+This script (34992.py) is a Python-based exploit targeting a critical SQL Injection vulnerability in Drupal 7 (versions 7.0 to 7.31), widely known as Drupalgeddon.
+
+The vulnerability exists due to improper handling of user-supplied input in database queries, allowing attackers to inject malicious SQL commands without authentication.
+
+⚙️ Impact
+Unauthorized database access
+Administrator account creation
+Full website compromise
+Remote Code Execution (in some scenarios)
 
 * Successfully created administrator account
 * Gained access to admin panel
 
 📸 Screenshot:
-(Add admin login panel)
-
+https://github.com/Salik921/Droopy-Vuln-Hub-Writeup/blob/51f97365df72d89fd14865bccbd0155db72d9b4f/Screenshot%202026-03-24%20204425.png
 ---
 
 ### 5️⃣ Initial Access (Webshell)
@@ -121,7 +131,7 @@ nc -lvnp 4444
 * Triggered reverse shell
 
 📸 Screenshot:
-(Add shell access screenshot)
+https://github.com/Salik921/Droopy-Vuln-Hub-Writeup/blob/51f97365df72d89fd14865bccbd0155db72d9b4f/Screenshot%202026-03-24%20205117.png
 
 ---
 
@@ -137,7 +147,7 @@ lsb_release -a
 * Identified kernel version
 
 📸 Screenshot:
-(Add system info output)
+https://github.com/Salik921/Droopy-Vuln-Hub-Writeup/blob/51f97365df72d89fd14865bccbd0155db72d9b4f/Screenshot%202026-03-24%20205117.png
 
 ---
 
