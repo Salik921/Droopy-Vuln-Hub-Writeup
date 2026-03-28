@@ -156,10 +156,13 @@ https://github.com/Salik921/Droopy-Vuln-Hub-Writeup/blob/51f97365df72d89fd14865b
 * Searched for kernel exploits
 
 ```bash
-searchsploit linux kernel
+searchsploit linux | grep -i 3.13 | grep -i kernal
 ```
 
 * Found exploit (37292.c)
+
+📸 Screenshot:
+
 
 ### Transfer Exploit
 
