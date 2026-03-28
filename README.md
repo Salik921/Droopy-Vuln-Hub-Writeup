@@ -116,7 +116,7 @@ Remote Code Execution (in some scenarios)
 
 📸 Screenshot:
 https://github.com/Salik921/Droopy-Vuln-Hub-Writeup/blob/51f97365df72d89fd14865bccbd0155db72d9b4f/Screenshot%202026-03-24%20204425.png
----
+
 
 ### 5️⃣ Initial Access (Webshell)
 
@@ -184,7 +184,7 @@ chmod +x exploit
 
 📸 Screenshot:
 https://github.com/Salik921/Droopy-Vuln-Hub-Writeup/blob/82a2c7a13e4526b9c88027647f797932154be1f5/Screenshot%202026-03-24%20205637.png
----
+
 
 ## 💥 Impact
 
