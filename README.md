@@ -88,7 +88,7 @@ searchsploit drupal 7
 * Confirmed that the CMS version is outdated and vulnerable
 
 📸 Screenshot:
-(Add searchsploit output)
+https://github.com/Salik921/Droopy-Vuln-Hub-Writeup/blob/8a4d5ac4b7d9401e72bbfc57d4d25bb563478ade/Screenshot%202026-03-28%20132712.png
 
 ---
 
