@@ -53,7 +53,7 @@ The following methodology was used during the assessment:
 * Found HTTP service running on port 80
 
 ```bash
-nmap -sC -sV <TARGET_IP>
+nmap -sC -sV 192.168.10.14
 ```
 
 📸 Screenshot:
