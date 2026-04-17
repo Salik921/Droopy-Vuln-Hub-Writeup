@@ -68,7 +68,7 @@ https://github.com/Salik921/Droopy-Vuln-Hub-Writeup/blob/5487ed0030f1d058baf47b3
 * Manual inspection confirmed Drupal structure
 
 ```bash
-nikto -h http://<TARGET_IP>
+nikto -h http://192.168.10.14
 ```
 
 📸 Screenshot:
